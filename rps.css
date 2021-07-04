@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(208, 178, 224);
+}
+
+#main-container{
+  display:grid;
+  justify-content: center;
+}
+
+#button-container{
+  margin:2rem auto;
+  max-height: fit-content;
+}
+.rock{
+  padding:auto;
+  height:auto;
+  width:auto;
+}
+.paper{
+  padding:auto;
+  height:auto;
+  width:auto;
+}
+.scissors{
+  padding:auto;
+  height:auto;
+  width:auto;
+}
+
+#score-keeper{
+  display:grid;
+  min-width:100%;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:40px;
+}
+
+
+#game-results{
+  font-size: 28px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+
+h1{
+  text-align: center;
+}
+
+button{
+  font-size: 14px;
+  text-align:center;
+}
+
+button:hover{
+  cursor: pointer;
+}
